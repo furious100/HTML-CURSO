@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="" method="get"> <!--ao clicar em "enviar" irá fazer um requisição "method get" e irá aparecer na url-->
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Cargo:</label>
+        <select name="role"> <!--Opções para seleção abaixo-->
+            <option value="">Selecione o cargo</option>
+            <option value="Administração">Administração</option>
+            <option value="Redes de computadores">Redes de computadores</option>
+            <option selected value="Cafetão">Cafetão</option> <!--O "selected" serve para que esse já apareça como preenchido-->
+        </select>
+        <br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <button type="submit">Enviar</button>
+
+
+
+
+    </form>
+    
+</body>
+</html>

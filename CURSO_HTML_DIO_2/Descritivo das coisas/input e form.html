@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form>
+        <label>Text: </label><input type="text"/><br>
+        <label>Number: </label><input type="number" min="0" max="99" step="5"/><br> <!-- min = minimo || max = maximo || step = de 5 em 5-->
+        <label>Range: </label><input type="range" min="0" max="100" value=" 67"/><br> <!--Bolinha deslizante--><!--value: Carrega preenchendo 67 do 100 máximos atribuído-->
+        <label>Color: </label><input type="color"/><br> <!--Implementa uma escolha de cor-->
+        <label>email: </label><input type="email"/><br><!--Campo para email com o botton validando em baixo "submit"-->
+        <label>URL: </label><input type="url"/><br> <!--Inserir URL validando com o protocolo http no começo da url-->
+        <label>Date: </label><input type="date"/><br> <!--Seleção de data através do calendário-->
+        <label>Mês: </label><input type="month"/><br> <!--Coloca o mês--><!--Só funciona no EDGER e CHROME-->
+        <label>Week: </label><input type="week"/><br> <!--Coloca semana--><!--Só funciona no EDGER e CHROME-->
+        <label>Checkbox: </label><input type="checkbox"/><input type="checkbox"/><br> <!--Caixinha de marcação (criado duas) (valor boleeano)-->
+        <label>Radio: </label><input type="radio" name="aceita"/><input type="radio" name="aceita"/><br> <!--Botão redondo com atributo name para definir uma só seleção--><!--Se não tiver um atributo "name", irá permitir seleção de dois, caso  tenha-->
+        <label>Hidden: </label><input type="hidden"/><br> <!--Campo invisível para usuários-->
+        <label>File </label><input type="file" multiple/><br> <!--Envio de arquivos--> <!--"multiple" faz com que envie mais de um arquivo-->
+        <label>Seach: </label><input type="search"/><br> <!--Campo de busca, funcional apenas no CHROME-->
+        <label>button: </label><input type="submit" value="Enviar"/><br> <!-- Botão e nome do botão juntamente com seu tipo "submit" de validação-->
+        
+    </form>
+    <p>method get e post <br>
+        Get: Aparece na url <br>
+        Post: Não aparece na URL <br>
+
+        Atributo "disabled" desativa mas, não a remove
+    </p>
+</body>
+</html>
